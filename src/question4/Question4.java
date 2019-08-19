@@ -8,7 +8,10 @@ public class Question4 {
         int number = scanner.nextInt();
         if (number > 0) {
             System.out.println("Positive");
+        } else if (number < 0) {
+            System.out.println("Negative");
         }
+
 
     }
 
