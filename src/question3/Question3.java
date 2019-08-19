@@ -7,5 +7,6 @@ public class Question3 {
         Scanner scanner = new Scanner(System.in);
         int number1 = scanner.nextInt();
         int number2 = scanner.nextInt();
+        System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
     }
 }
