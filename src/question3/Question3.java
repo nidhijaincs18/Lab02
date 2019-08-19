@@ -12,5 +12,6 @@ public class Question3 {
         System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
         System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
         System.out.println(number1 + " % " + number2 + " = " + (number1 % number2));
+        scanner.close();
     }
 }
